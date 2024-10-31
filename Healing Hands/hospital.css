@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(10, 15, 57);
+}
+
+.doctor img {
+    padding: 64px;
+    margin-left: 170px;
+    opacity: 0.4;
+    position: fixed;
+    margin-top: 40px;
+    opacity: 0.2;
+}
+.flips{
+    background-color:rgb(152, 241, 211) ;
+}
+.fliptext{
+    font-size: 40px;
+    color: black;
+    margin: 34px;
+    margin-top: 40px;
+}
+.mt{
+    font-size: 25px;
+    margin-top: 30px;
+    margin: 36px;
+}
+
+.flipcard {
+    background-color: rgb(56, 97, 202);
+    width: 15vw;
+    height: 30vh;
+    margin-left: 7vw;
+    margin-top: 5vw;
+    border-radius: 15px;
+}
+
+.brain img {
+    margin: px;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+    margin-top: 18px;
+
+}
+
+.fliptext2 {
+    font-size: 23px;
+    color: white;
+    margin-left: 25px;
+
+
+}
+
+.flipcard a {
+    text-decoration: none;
+}
+
+.flipcard:hover {
+    background-color: rgb(40, 134, 165);
+}
+.cards{
+    display: flex;
+    /* flex-flow: column; */
+    flex-wrap:wrap;
+}

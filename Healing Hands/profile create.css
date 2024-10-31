@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    background-image: url(Healing\ Hands\ logo.jpg);
+    display: block;
+    height: 140vh;
+}
+
+.clip {
+    display: flex;
+    justify-content: center;
+}
+
+.clip img {
+    margin: 50px;
+    border-radius: 20px;
+    border: 3px solid black;
+
+}
+.phi{
+    background-color: white;
+    width: 47vw;
+    margin: auto;
+    position: relative;
+    top: -707px;
+
+}
+.formtext{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 45px;
+    font-weight: 600px;
+    padding: 10px;
+
+}
+.name{
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 15px;
+}
+.fullname{
+    font-size: 20px;
+}
+#fullname{
+    width: 25vw;
+    height: 23px;
+    font-size: 17px;
+}
+.age{
+    margin-top: 5px;
+    margin-left: 8px;
+    padding: 4px;
+}
+.ages{
+    font-size: 20px;
+    padding: 15px;
+}
+#ages{
+    width: 5vw;
+    
+}
+.dob{
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 50px;
+}
+.gender{
+    margin-top: 5px;
+    margin-left: 7px;
+    padding: 15px;
+    
+}
+.male{
+    font-size: 20px;
+    padding: 5px;
+}
+#Female{
+    margin-left: 25px;
+    
+}
+.female{
+    font-size: 20px;
+    padding: 5px;
+}
+#Others{
+    margin-left: 25px;
+}
+.Others{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#bg{
+    margin-left: 25px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 520;
+    margin: 7px;
+    margin-left: 27px;
+
+}
+.Contact{
+    margin-left: 7px;
+    padding: 10px;
+}
+.mob{
+    font-size: 20px;
+    padding: 5px;
+}
+#mob{
+    width: 9vw;
+    padding: 3px;
+}
+.pho{
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 40px;
+}
+#phone{
+    width: 9vw;
+    padding: 3px;
+}
+.occ{
+    font-size: 20px;
+    margin-left:20px ;
+    padding: 4px;
+}
+#occ{
+    width: 11vw;
+    padding: 3px;
+}
+.aadhar{
+    font-size: 20px;
+    margin-left:20px ;
+    padding: 7px;
+    margin-top: 10px;
+}
+#aadhar{
+    width: 11vw;
+    padding: 3px;
+}
+.add{
+    margin-top: -15px;
+    margin-left: 5px;
+}
+.radd{
+    font-size: 20px;
+    margin-left:20px ;
+    padding: 0px;
+    
+}
+#add{
+    position: relative;
+    top: 23px;
+    font-size: 15px;
+}
+.medhis{
+    margin-top: 25px;
+    margin-left: 17px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    background-color:blue;
+    border: 2px solid black;
+    width: 10vw;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+button a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}

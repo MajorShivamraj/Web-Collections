@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.doctext {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+
+}
+
+body {
+    background-color: rgb(10, 15, 57);
+}
+
+.doctor img {
+    padding: 64px;
+    margin-left: 170px;
+    opacity: 0.4;
+    position: fixed;
+
+    margin-top: 50px;
+    opacity: 0.2;
+}
+
+.doctext {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    width: 81vw;
+    margin: auto;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.first {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    padding: -12px;
+    margin-top: 60px;
+}
+.info{
+    width: 55vw;
+}
+
+.name{
+    font-size: 40px;
+    color: white;
+
+}
+.deg{
+    font-size: 25px;
+    color: white;
+    margin-top: 5px;
+}
+.his{
+    font-size: 19px;
+    color: white;
+    margin-top: 18px;
+}
+button{
+    width: 15vw;
+    height: 4vw;
+    text-align: center;
+    background-color: purple;
+    font-size: 23px;
+    border: 2px solid wheat;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin: 23px;
+    
+}
+.consult{
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    height: 250px;
+    width: 250px;
+    background-color: #bbb;
+    border-radius: 30%;
+    margin: 15px;
+    margin-left: 40px;
+    overflow: hidden;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+}

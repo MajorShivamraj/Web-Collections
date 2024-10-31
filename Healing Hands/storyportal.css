@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(126, 196, 219);
+}
+.main{
+    background-color: white;
+    margin: 50px;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 45px;
+    
+}
+.text{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 23px;
+
+}
+.name{
+    font-size: 20px;
+    margin-left: 15px;
+}
+#name{
+    padding: 4px;
+    width: 30vw;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#sname{
+    width: 50vh;
+    font-size: large;
+}
+.ages{
+    margin-top: 15px;
+}
+.age{
+    font-size: 20px;
+    margin-left: 27px;
+    
+    
+}
+#sage{
+    font-size: large;
+    width: 15vh;
+}
+#age{
+    padding: 4px;
+    width: 5vw;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.dob{
+    font-size: 20px;
+    margin-left: 90px;
+}
+#dob{
+    padding: 4px;
+    width: 10vw;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.contact{
+    margin-top: 15px;
+}
+.mob{
+    font-size: 20px;
+    margin-left: 23px;
+    
+}
+.mobe{
+    font-size: 20px;
+    margin-left: 80px;
+}
+#mob{
+    padding: 4px;
+    width: 10vw;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.aadhar{
+    margin-top: 15px;
+}
+
+.adhar{
+    font-size: 20px;
+    margin-left: 20px;
+}
+#adhar{
+    padding: 4px;
+    width: 15vw;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#adhar2{
+    padding: 4px;
+    width: 20vw;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.add{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 23px;
+}
+.add2{
+    margin-top: 30px;
+    margin-left: -25px;
+}
+.vote{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+#vote{
+    height: 25px;
+}
+.rat{
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.cast{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.bank{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.doc{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.income{
+    font-size: 20px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+
+.pan{
+    font-size: 20px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+
+.ftext{
+    font-size: 30px;
+    margin-left:15px;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+.main{
+    display: flex;
+}
+.photo{
+   position: relative;
+   height: 10vw;
+   left: -150px;
+   top: 23px;
+}
+
+.heading{
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-bottom: 25px;
+    margin-top: 23px;
+
+}
+.his{
+    margin-left: 30px;
+}
+.history{
+    font-size: 25px;
+    margin-left: 23px;
+}
+.certificate{
+    font-size: 20px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+
+#s{
+   font-size: large; 
+}
