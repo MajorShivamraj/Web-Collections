@@ -1,0 +1,97 @@
+body{
+    background-color: #bbb9b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    width: 60vw;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.cont1{
+    background-color: rgb(13, 64, 233);
+    padding: 20px;
+    text-align: center;
+    /* width: 20vw; */
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+.cont1 img{
+    border-radius: 50%;
+    border: 2px solid goldenrod;
+}
+
+.cont1 h2{
+    color: rgb(237, 230, 230);
+    font-size: 20px;
+
+}
+.cont1 p{
+    color: rgb(187, 178, 178);
+    font-size: 14px;
+    margin: 10px;
+
+}
+.cont1 h3{
+    font-size: 18px;
+    color: rgb(170, 123, 5);
+}
+
+.cont2{
+    padding: 20px;
+    color: rgb(46, 45, 45);
+
+}
+.cont2 p {
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.text{
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+a i{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+}
+a i:hover{
+    color: rgb(232, 52, 223);
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin-top: 10px;
+}
+.box{
+    background-color: goldenrod;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.button{
+    background-color: rgb(159, 16, 203);
+    width: 30vw;
+    height: 20px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-left: 30px;
+    text-align: center;
+}
