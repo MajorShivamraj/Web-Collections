@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeWriter</title>
+    <style>
+        *{
+            margin: 10px;
+            padding: 5px;
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: blueviolet;
+        }
+        h1{
+            color: white;
+        }
+        #btn{
+            border-radius: 10px;
+            border: 1px solid gray;
+        }
+        #btn:hover{
+            transform: translateY(-1px);
+        }
+        #result{
+            color: white;
+            font-size: 18px;
+            font-weight: 900;
+            transform: translateY(1px);
+           width: 60vw;
+           margin: auto;
+           overflow-wrap:break-word;
+           white-space: normal;
+           align-self: center;
+           text-align: center;
+        }
+
+        .cursor {
+            display: inline-block;
+            font-weight: bold;
+            font-size: 18px;
+            color: white;
+            margin-left: -18px;
+            animation: blink 0.6s step-start infinite;
+            padding: 0;
+        }
+
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50%      { opacity: 0; }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>See what Shivamraj thinks for you..</h1>
+    <button id="btn">Message</button>
+    <p id="result"><span id="text"></span><span class="cursor">|</span></p>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    width: 60vw;
+    margin: auto;
+    background-color: rgb(184, 183, 182);
+    height: 70vh;
+    padding: 20px;
+    margin: 40px 0px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+}
+
+#box1,#box2,#box3{
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: blueviolet;
+}

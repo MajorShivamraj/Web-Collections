@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 40vw;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+    background-color:blueviolet;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    margin: 20px;
+}
+h3{
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 20px;
+}
+i{
+    font-size: 50px;
+    color: white;
+}
+
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+#hours,#minute,#second,#milisecond{
+    background-color: black;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    border-top: 5px solid white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+#start,#laps,#stop,#reset{
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#start:hover,#laps:hover,#stop:hover,#reset:hover{
+    transform: translateY(0.7px);
+}
+#reset{
+    width: 15vw;
+    margin: auto;
+}
+.text{
+    text-align: left;
+    font-size: 30px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    color: white; 
+}
+.result{
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+    /* padding: 5px; */
+    margin-top: 20px;
+    margin: 20px;
+}

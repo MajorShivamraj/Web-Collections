@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal and External Navigation.</title>
+</head>
+<body>
+    <!--I know about external navigation just paste the link inside the href 
+    but learning for internal navigation-->
+    
+    <!-- Internal Navigation is done by using the IDs... -->
+    <nav>
+        <ul>
+            <li><a href="# home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#cont">Contact us</a></li>
+            <li><a href="#serv">Services</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <h1 id="home">Home</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni, eos provident dicta est officia quam architecto voluptas minus, exercitationem ipsam omnis ipsa at labore illo aperiam eius. Molestiae, veritatis consectetur omnis laborum laboriosam nihil quibusdam suscipit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tenetur, aperiamum quo! Laborum, dolore, atque distinctio ipsa mollitia minus rerum nisi, quisquam necessitatibus non temporibus dolor! odio harum laudantium in placeat quasi officiis sint quae cum odit corporis, dignissimos cumque. In sit, ex quaerat beatae voluptatem nobis sint, possimus deserunt saepe assumenda eveniet pariatur natus tempore optio nisi ipsam error est. Temporibus est ratione nesciunt qui, aspernatur, cupiditate molestias molestiae veritatis reiciendis recusandae fugit voluptatibus eligendi labore sequi quod!</p>
+    <hr>
+    <h1 id="about">About us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis alias reprehenderit, nesciunt ea temporibus maxime doloribus excepturi quos! Quasi vitae ullam excepturi numquam vel reprehenderit adipisci nisi beatae tempora tenetur ea Lorem ipsum, dolor sit amet cuptates, a assumenda fugit omnis placeat repellat, dolores dignissimos praesentium ea beatae culpa distinctio alias ducimus saepe porro earum ratione animi. Doloribus labore iusto quia totam quidem consequuntur perspiciatis molestias. Nemo veritatis esse velit cum saepe dolore! Dolorem itaque reprehenderit voluptatibus neque vero harum, ut eos nulla, quidem et id saepe. iste temporibus inventore quas asperiores, quisquam quod fuga saepe cum sint quos at explicabo. Veniam numquam, magni id porro, reprehenderit sit ducimus fugit libero voluptatum non rerum officiis mollitia!</p>
+
+    <hr>
+    <h1 id="cont">Contact us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni, eos provident dicta est officia quam architecto voluptas minus, exercitationem ipsam omnis ipsa at labore illo aperiam eius. Molestiae, veritatis consectetur omnis laborum laboriosam nihil quibusdam suscipit odio harum laudantium in placeat quasi officiis sint quae cum odit corporis, dignissimos cumdent? Eligendi commodi voluptate nulla harum rem quo a magnam minus blanditiis officia nihil veniam perferendis distinctio aspernatur qui voluptatem inventore iste porro architecto dolore quos, delectus in ducimus. Ad dolore laboriosam fugiat aperiam ipsum atque est aspernatur incidunt. Aliquid quibusdam error porro perferendis dolores sint qui aut optio delectus, consequatur ratione, ducimus sunt culpa. est. Temporibus est ratione nesciunt qui, aspernatur, cupiditate molestias molestiae veritatis reiciendis recusandae fugit voluptatibus eligendi labore sequi quod!</p>
+
+    <hr>
+    <h1 id="serv">Services</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni, eos provident dicta est officia quam architecto voluptas minus, exercitationem ipsam omnis ipsa at labore illo aperiam eius. Molestiae, illo odit soluta ab, dolor odio possimus a reprehenderit assumenda vero nesciunt doloremque ducimus vel? Non omnis qui expedita ipsum earum quibusdam deserunt, officiis laudantium, a totam quis accusamus dolore animi vitae neque ullam quo? Deserunt a perspiciatis fuga ipsa. Cumque amet fugit fuga tenetur, modi esse voluptates. aspernatur, cupiditate molestias molestiae veritatis reiciendis recusandae fugit voluptatibus eligendi labore sequi quod!</p>
+</body>
+</html>

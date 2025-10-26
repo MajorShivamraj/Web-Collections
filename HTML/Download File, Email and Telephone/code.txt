@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download FIle , email and telephone.</title>
+</head>
+<body>
+    <h1>Downloading Files...</h1>
+    <hr>
+    <a href="/Licence PDF.pdf" download="">Download File</a>
+    <hr>
+
+
+    <h1>Send Email...</h1>
+    <hr>
+    <a href="mailto:sampada.sawant23@pccoepune.org">Send Email</a>
+    <hr>
+
+    
+    <h1>Telephone...</h1>
+    <hr>
+    <a href="tel:8010610593">Call us</a>
+</body>
+</html>

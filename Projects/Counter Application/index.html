@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Application</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+        .container{
+            width: 60vw;
+            margin: auto;
+            background-color: rgb(184, 183, 182);
+            height: 70vh;
+            padding: 20px;
+            margin: 40px 0px;
+            border-radius: 20px;
+        }
+        #counter{
+            /* padding: 40px; */
+            display: inline-block;
+            padding: 10px;
+            width: 5vw;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-size: 30px;
+            border: 2px solid goldenrod;
+            border-radius: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+
+        .boxes{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            gap: 40px;
+        }
+
+        #incbtn,#decbtn,#incbytenbtn,#reset{
+            border: 2px solid blueviolet;
+            border-radius: 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .box:hover{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Counter Application</h1>
+        <div id="counter">0</div>
+        <div class="boxes">
+            <button id="incbtn">Increase</button>
+            <button id="decbtn">Decrease</button>
+            <button id="incbytenbtn">Increase By 10</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

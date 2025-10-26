@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Loan Calculator</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="upperSection">
+            <h1>Smart Loan Calculator</h1>
+            <p>Calculate your monthly payments and total intrest easily</p>
+        </div>
+        <div id="disection">
+            <div id="left">
+                <label for="loanAmount">Loan Amount($)</label>
+                <input type="number" name="amt" id="loanAmount" placeholder="e.g., 250000">
+                <label for="annualRate">Annual Intrest Rate (%)</label>
+                <input type="number" name="rate" id="annualRate" placeholder="e.g., 5.5">
+                <label for="loanTerm">Loan Term (Years)</label>
+                <input type="number" name="year" id="loanTerm" placeholder="e.g.,30">
+                <button id="calculateLoanBtn">Calculate Loan  <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div id="right">
+                <h3>Loan Summary</h3>
+                <section id="monthlyPayment">
+                    <div class="text">Monthly Payment</div>
+                    <div id="monthlyPayResult">$0.00</div>
+                </section>
+                <section id="totalPayment">
+                    <div class="text">Total Payment</div>
+                    <div id="totalPayResult">$0.00</div>
+                </section>
+                <section id="totalIntrestRate">
+                    <div class="text">Total Interest</div>
+                    <div id="totalIntrestResult">$0.00</div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+    width: 90vw;/*for small screens*/
+    max-width: 250px; /*for large screens*/
+    /* height: 80vh; */
+    background-color: rgb(144, 145, 145);
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px 15px;
+    border: 1px solid transparent;
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 1.6);
+    border-radius: 10px;
+}
+
+.screen{
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(146, 130, 130);
+    border: 1px solid rgb(94, 70, 70);
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.row1 , .row2 ,.row3, .row4{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.box{
+    flex: 1;
+    margin: 0px 5px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(234, 236, 236);
+    text-align: center;
+}
+
+.box0{
+    text-align: center;
+}
+
+.row0{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.box_undo{
+    cursor: pointer;
+    background-color: rgb(234, 236, 236);
+    margin: 0px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
